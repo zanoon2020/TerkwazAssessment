@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-terkwaz" class="navigator-link">
+              <span class="suite-name border-passed">terkwaz</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-terkwaz" class="navigator-link ">
+                    <span>D:\Eclipse Work Space\assignment1\src\test\java\RunTestFromHere.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-terkwaz" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-terkwaz" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-terkwaz" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-terkwaz" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-terkwaz" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-terkwaz" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-terkwaz" class="hide-methods passed suite-terkwaz"> (hide)</a> <!-- hide-methods passed suite-terkwaz -->
+                      <a href="#" panel-name="suite-terkwaz" class="show-methods passed suite-terkwaz"> (show)</a> <!-- show-methods passed suite-terkwaz -->
+                    </span>
+                    <div class="method-list-content passed suite-terkwaz">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-terkwaz" title="tests.CheckThirdResult" class="method navigator-link" hash-for-method="CheckThirdresult">CheckThirdresult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-terkwaz" title="tests.DynamicLoadingTest" class="method navigator-link" hash-for-method="DynamicLoading">DynamicLoading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-terkwaz" title="tests.UploadImage" class="method navigator-link" hash-for-method="FileUpload">FileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-terkwaz" title="tests.CatFactsAPITest" class="method navigator-link" hash-for-method="requestRandomCatFact">requestRandomCatFact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-terkwaz -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-terkwaz" class="panel terkwaz">
+          <div class="suite-terkwaz-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CatFactsAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="requestRandomCatFact">
+                  </a> <!-- requestRandomCatFact -->
+                  <span class="method-name">requestRandomCatFact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-terkwaz-class-passed -->
+          <div class="suite-terkwaz-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckThirdResult</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckThirdresult">
+                  </a> <!-- CheckThirdresult -->
+                  <span class="method-name">CheckThirdresult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-terkwaz-class-passed -->
+          <div class="suite-terkwaz-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DynamicLoadingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DynamicLoading">
+                  </a> <!-- DynamicLoading -->
+                  <span class="method-name">DynamicLoading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-terkwaz-class-passed -->
+          <div class="suite-terkwaz-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UploadImage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FileUpload">
+                  </a> <!-- FileUpload -->
+                  <span class="method-name">FileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-terkwaz-class-passed -->
+        </div> <!-- panel terkwaz -->
+        <div panel-name="test-xml-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Eclipse Work Space\assignment1\src\test\java\RunTestFromHere.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;terkwaz&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CheckThirdResult&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckThirdResult&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckThirdResult --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UploadImage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.UploadImage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadImage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DynamicLoadingTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DynamicLoadingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DynamicLoadingTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CatFactsAPITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CatFactsAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CatFactsAPITest --&gt;
+&lt;/suite&gt; &lt;!-- terkwaz --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for terkwaz</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CheckThirdResult (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadImage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DynamicLoadingTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CatFactsAPITest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for terkwaz</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for terkwaz</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_terkwaz');
+function tableData_terkwaz() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DynamicLoading')
+data.setCell(0, 2, 'tests.DynamicLoadingTest')
+data.setCell(0, 3, 7007);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FileUpload')
+data.setCell(1, 2, 'tests.UploadImage')
+data.setCell(1, 3, 5387);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CheckThirdresult')
+data.setCell(2, 2, 'tests.CheckThirdResult')
+data.setCell(2, 3, 3509);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'requestRandomCatFact')
+data.setCell(3, 2, 'tests.CatFactsAPITest')
+data.setCell(3, 3, 2509);
+window.suiteTableData['terkwaz']= { tableData: data, tableDiv: 'times-div-terkwaz'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-terkwaz">
+              </div> <!-- times-div-terkwaz -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for terkwaz</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">requestRandomCatFact</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Fact is : A cat will tremble or shiver when it is extreme pain.</span>
+                <span class="reporter-method-output">Source is :  api</span>
+                <span class="reporter-method-output">type is : cat</span>
+                <span class="reporter-method-output">{"used":false,"source":"api","type":"cat","deleted":false,"_id":"591f98703b90f7150a19c163","__v":0,"text":"A cat will tremble or shiver when it is extreme pain.","updatedAt":"2020-05-10T20:20:11.457Z","createdAt":"2018-05-07T20:20:02.633Z","status":{"verified":true,"sentCount":1},"user":"5a9ac18c7478810ea6c06381"}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-terkwaz" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DynamicLoadingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckThirdResult</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckThirdresult</span>
+                <span class="method-start">5807 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UploadImage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FileUpload</span>
+                <span class="method-start">9367 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DynamicLoadingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DynamicLoading</span>
+                <span class="method-start">14765 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CatFactsAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">requestRandomCatFact</span>
+                <span class="method-start">21781 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DynamicLoadingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopDriver</span>
+                <span class="method-start">24295 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

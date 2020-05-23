@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="terkwaz">
+	<test name="CheckThirdResult">
+		<classes>
+			<class name="tests.CheckThirdResult" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="UploadImage">
+		<classes>
+			<class name="tests.UploadImage" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="DynamicLoadingTest">
+		<classes>
+			<class name="tests.DynamicLoadingTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="CatFactsAPITest">
+		<classes>
+			<class name="tests.CatFactsAPITest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
